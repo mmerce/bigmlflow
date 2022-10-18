@@ -45,7 +45,7 @@ setup(
     download_url="https://github.com/bigmlcom/bigmlflow",
     license="http://www.apache.org/licenses/LICENSE-2.0",
     python_requires=">=3.7",
-    install_requires=["mlflow>1.25.0", "bigml"],
+    install_requires=["mlflow>=1.29.0", "bigml"],
     extras_require={"test": ["pytest"]},
     packages=["bigmlflow"],
     classifiers=[
