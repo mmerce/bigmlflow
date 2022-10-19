@@ -37,6 +37,7 @@ long_description = "\n\n".join(file_contents)
 setup(
     name="bigmlflow",
     description="An open source library to add BigML models to the MLFlow API",
+    long_description_content_type="text/markdown",
     long_description=long_description,
     version=version,
     author="The BigML Team",
