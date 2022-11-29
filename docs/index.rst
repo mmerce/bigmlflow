@@ -13,6 +13,15 @@ The `bigmlflow` library implements this flavor. It uses
 `BigML's Python bindings <https://bigml.readthedocs.io/en/latest/local_resources.html>`_
 to integrate the BigML models with `MLFlow's` tracking and deploying capacities.
 
+Installation
+---------------
+
+This library is available as a PyPI package. To install it, just run:
+
+.. code:: bash
+
+    pip install bigmlflow
+
 The flavor is implemented in a single ``bigmlflow`` module
 
 Flavor methods
@@ -26,7 +35,36 @@ Flavor methods
 BigMLFlow usage
 ---------------
 
-The `examples <../../../examples/README.md>`_ folder shows a few use cases
-that cover some of the Supervised Models available in BigML and
-a full training example to demo the logging and tracking of `BigML's models`
-using `MLFlow`.
+Some `examples <../../../examples/README.md>`_ are available in the repository
+to illustrate how you can use `MLFlow` to generate `BigML` models,
+log evaluation metrics and deploy the different Supervised Models
+available in the `BigML` platform.
+
+
+Tests
+-----
+
+The `tests` directory contains some tests for the logging, saving and loading
+of models.
+We use `Pytest` to run the tests, so you can install it separately
+
+.. code:: bash
+
+    pip install pytest
+
+or as an extra for development and testing purposes
+
+.. code:: bash
+
+    pip install -e .[tests]
+
+
+How to Contribute
+-----------------
+
+Please follow the next steps:
+
+  1. Fork the project on github.com.
+  2. Create a new branch.
+  3. Commit changes to the new branch.
+  4. Send a [pull request](https://github.com/bigmlcom/bigmlflow/pulls).
