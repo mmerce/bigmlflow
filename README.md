@@ -19,7 +19,7 @@ using `MLFlow`.
 
 ## Installation
 
-This library is available as a Pypi package. To install it, just run:
+This library is available as a PyPI package. To install it, just run:
 
 ```bash
     pip install bigmlflow
