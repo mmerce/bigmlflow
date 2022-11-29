@@ -35,10 +35,10 @@ Flavor methods
 BigMLFlow usage
 ---------------
 
-Some `examples <../../../examples/README.md>`_ are available in the repository
-to illustrate how you can use `MLFlow` to generate `BigML` models,
-log evaluation metrics and deploy the different Supervised Models
-available in the `BigML` platform.
+Some `examples <https://github.com/bigmlcom/bigmlflow/tree/master/examples>`_
+are available in the repository to illustrate how you can use `MLFlow`
+to generate `BigML` models, log evaluation metrics and deploy the different
+Supervised Models available in the `BigML` platform.
 
 
 Tests
@@ -67,4 +67,4 @@ Please follow the next steps:
   1. Fork the project on github.com.
   2. Create a new branch.
   3. Commit changes to the new branch.
-  4. Send a [pull request](https://github.com/bigmlcom/bigmlflow/pulls).
+  4. Send a `pull request <https://github.com/bigmlcom/bigmlflow/pulls>`_.
